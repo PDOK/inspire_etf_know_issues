@@ -4,7 +4,6 @@
 102,,,TR.getMapWrongParameterNotFail,,,KNOWN_ISSUE,,Te strikte OGC validatie (fail on wrong parameter)
 103,,EIDbeef20d2-14ff-4a7b-b3de-82e32e0194b4,TR.getMapNoMandatoryParameterNotFail,,,KNOWN_ISSUE,,Te strikte OGC validatie
 105,,EIDf451f093-6daf-484b-8de7-dd85dff8507a,TR.getMapNoMandatoryParameterNotFail,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
-106,,EID00ed8677-bf7e-492e-8b68-91e9cae1a7d5,TR.getMapWrongParameterNotFail,,,KNOWN_ISSUE,,Te strikte OGC validatie - (fail on wrong parameter)
 107,,EIDc9b5a754-2093-4aba-9dca-9af9887f046f,TR.invalidSchema,,,KNOWN_ISSUE,,De namespace voor prefix sld wordt niet altijd herkend door de ETF test
 108,EID738051b8-6344-42be-8315-6fbc69f52575,,TR.notHarmonisedValue,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/39,harmonized layer names should not be mandatory (voor NWB PDOK-11407) 
 109,,EID76f8fb3a-c00f-11e8-a355-529269fb1459,TR.wrongDateFormat,,,PDOK_ISSUE,https://dev.kadaster.nl/jira/browse/PDOK-12883,Network Services metadata:  ISO datum formaat Errors md common req C.14: Temporal Extent (Known PDOK issue) vervolg
