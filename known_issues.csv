@@ -41,3 +41,4 @@
 142,,EID280f5deb-526c-4ad4-8aee-3cb624258ec0,TR.fallbackInfo,Responsestatuscode:500isnotinacceptablelistofstatuscodes,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
 143,,EID86f82b8a-4887-4fad-a931-c0bbc2ff281e,TR.fallbackInfo,Responsestatuscode:500isnotinacceptablelistofstatuscodes,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
 144,,EID86f82b8a-4887-4fad-a931-c0bbc2ff281e,TR.fallbackInfo,Responsestatuscode:500isnotinacceptablelistofstatuscodes,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Test of sync werkt hello world!!! :)
+145,,EID4c8b189c-31ec-4098-8f45-6952a58780c6,TR.fallbackInfo,,,KNOWN_ISSUE,https://dev.kadaster.nl/jira/browse/PDOK-11579,De inspire validator geeft een timeout op het downloaden van grote ATOM (.zip) bestanden.
