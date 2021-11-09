@@ -34,4 +34,4 @@
 }",KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/324,View Service - WMS: different behaviour of at38-getcapabilities-layer-authority-url in cases no Authority URL is used (opgelost in validator volgens github 10-6-2021)  
 138,,EIDb18b17b8-8e7f-4df0-9b8c-ce9ac27b4405,TR.uniqueDatasetIdentifiers,,{037e55bd-a1dc-4fde-adfe-4610d3a3d5cb},PDOK_ISSUE,https://dev.kadaster.nl/jira/browse/PDOK-11496,zie ook https://dev.kadaster.nl/jira/browse/PDOK-13001
 45,,EID4c8b189c-31ec-4098-8f45-6952a58780c6,TR.fallbackInfo,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/635 https://dev.kadaster.nl/jira/browse/PDOK-11579,De inspire validator geeft een timeout op het downloaden van grote ATOM (.zip) bestanden.
-146;EID3a9338dd-bc6d-4ef6-a536-b30a62e9a500;;;;9ff1a13c-d1e0-4150-8523-91cb489ae1a4;KNOWN_ISSUE;https://dev.kadaster.nl/jira/browse/PDOK-13512;Uitfaseren gemeenschappeljke downloadservice 
+146,EID3a9338dd-bc6d-4ef6-a536-b30a62e9a500,,,,9ff1a13c-d1e0-4150-8523-91cb489ae1a4,KNOWN_ISSUE,https://dev.kadaster.nl/jira/browse/PDOK-13512,Uitfaseren gemeenschappeljke downloadservice 
