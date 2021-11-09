@@ -1,9 +1,7 @@
 ﻿id,test_step_id,assertion_id,error_message,error_message_contains,metadata_uuids,status,link,omschrijving
-100,,EID4ff083af-55d3-49be-8a7b-3337c90e2a29,TR.noMandatoryParameterNotFail,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
-101,,EID040767bb-25db-4c92-97bd-d4d301171e81,TR.getMapNoMandatoryParameterNotFail,,,KNOWN_ISSUE,https://wayback.archive-it.org/12090/20210119132629/https://inspire.ec.europa.eu/forum/discussion/view/261825/geoserver-wms-does-not-pass-the-inspire-validator-test,Te strikte OGC validatie (exception when the parameters -“version” -styles” or “crs”  are missing)
-102,,,TR.getMapWrongParameterNotFail,,,KNOWN_ISSUE,,Te strikte OGC validatie (fail on wrong parameter)
-103,,EIDbeef20d2-14ff-4a7b-b3de-82e32e0194b4,TR.getMapNoMandatoryParameterNotFail,,,KNOWN_ISSUE,,Te strikte OGC validatie
-105,,EIDf451f093-6daf-484b-8de7-dd85dff8507a,TR.getMapNoMandatoryParameterNotFail,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
+100,,,TR.noMandatoryParameterNotFail,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Alleen op oude infra: Te strikte OGC validatie (service parameter ontbreekt)
+102,,,TR.getMapWrongParameterNotFail,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Alleen op oude infra: Te strikte OGC validatie (fail on wrong parameter)
+103,,,TR.getMapNoMandatoryParameterNotFail,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Alleen op oude infra: Te strikte OGC validatie (getmap service parameter ontbreekt)
 107,,EIDc9b5a754-2093-4aba-9dca-9af9887f046f,TR.invalidSchema,,,KNOWN_ISSUE,,De namespace voor prefix sld wordt niet altijd herkend door de ETF test
 108,EID738051b8-6344-42be-8315-6fbc69f52575,,TR.notHarmonisedValue,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/39,harmonized layer names should not be mandatory (voor NWB PDOK-11407) 
 109,,EID76f8fb3a-c00f-11e8-a355-529269fb1459,TR.wrongDateFormat,,,PDOK_ISSUE,https://dev.kadaster.nl/jira/browse/PDOK-12883,Network Services metadata:  ISO datum formaat Errors md common req C.14: Temporal Extent (Known PDOK issue) vervolg
@@ -35,10 +33,4 @@
 137,EID2272f763-9fed-41f0-8519-ab91facc7c33,,TR.authorityURLnameAlreadyDefined,,"{488c1e6d-363e-4476-b2ff-17756ac9b35f,4b6752ae-65d6-44b5-98ef-1fc30f4fd92d
 }",KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/324,View Service - WMS: different behaviour of at38-getcapabilities-layer-authority-url in cases no Authority URL is used (opgelost in validator volgens github 10-6-2021)  
 138,,EIDb18b17b8-8e7f-4df0-9b8c-ce9ac27b4405,TR.uniqueDatasetIdentifiers,,{037e55bd-a1dc-4fde-adfe-4610d3a3d5cb},PDOK_ISSUE,https://dev.kadaster.nl/jira/browse/PDOK-11496,zie ook https://dev.kadaster.nl/jira/browse/PDOK-13001
-139,,EIDd3294131-d396-48f7-bafd-3b3cfe045025,TR.fallbackInfo,Responsestatuscode:500isnotinacceptablelistofstatuscodes,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
-140,,EIDe11fa062-4c72-44cc-9bf5-fb85f9a180d9,TR.fallbackInfo,Responsestatuscode:500isnotinacceptablelistofstatuscodes,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
-141,,EID0ddc27ef-f591-4734-a2b4-3a3493148f4f,TR.fallbackInfo,Responsestatuscode:500isnotinacceptablelistofstatuscodes,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
-142,,EID280f5deb-526c-4ad4-8aee-3cb624258ec0,TR.fallbackInfo,Responsestatuscode:500isnotinacceptablelistofstatuscodes,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
-143,,EID86f82b8a-4887-4fad-a931-c0bbc2ff281e,TR.fallbackInfo,Responsestatuscode:500isnotinacceptablelistofstatuscodes,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Te strikte OGC validatie (service parameter ontbreekt)
-144,,EID86f82b8a-4887-4fad-a931-c0bbc2ff281e,TR.fallbackInfo,Responsestatuscode:500isnotinacceptablelistofstatuscodes,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Test of sync werkt hello world!!! :)
-145,,EID4c8b189c-31ec-4098-8f45-6952a58780c6,TR.fallbackInfo,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/635 https://dev.kadaster.nl/jira/browse/PDOK-11579,De inspire validator geeft een timeout op het downloaden van grote ATOM (.zip) bestanden.
+45,,EID4c8b189c-31ec-4098-8f45-6952a58780c6,TR.fallbackInfo,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/635 https://dev.kadaster.nl/jira/browse/PDOK-11579,De inspire validator geeft een timeout op het downloaden van grote ATOM (.zip) bestanden.
