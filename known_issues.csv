@@ -35,3 +35,4 @@
 138,,EIDb18b17b8-8e7f-4df0-9b8c-ce9ac27b4405,TR.uniqueDatasetIdentifiers,,{037e55bd-a1dc-4fde-adfe-4610d3a3d5cb},PDOK_ISSUE,https://dev.kadaster.nl/jira/browse/PDOK-11496,zie ook https://dev.kadaster.nl/jira/browse/PDOK-13001
 45,,EID4c8b189c-31ec-4098-8f45-6952a58780c6,TR.fallbackInfo,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/635,De inspire validator geeft een timeout op het downloaden van grote ATOM (.zip) bestanden.
 146,EID3a9338dd-bc6d-4ef6-a536-b30a62e9a500,,,,{9ff1a13c-d1e0-4150-8523-91cb489ae1a4},KNOWN_ISSUE,https://dev.kadaster.nl/jira/browse/PDOK-13512,"Uitfaseren gemeenschappeljke downloadservice "
+,,EID75f52c4d-7efd-412d-b177-9c7b581e95d3,TR.unexpectedContentType,,,KNOWN_ISSUE,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/637,"Voorstel gedaan om wat relaxter om te gaan met de content-type op opensearchdescription. Dit is door het MIF geacceteerd, maar moet nog in docs en etf tests aangepast worden"
