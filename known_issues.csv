@@ -1,7 +1,7 @@
 ﻿id,test_step_id,assertion_id,error_message,error_message_contains,metadata_uuids,status,link,omschrijving
-100,,,TR.noMandatoryParameterNotFail,,,MIF,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Alleen op oude infra: Te strikte OGC validatie (service parameter ontbreekt)
-102,,,TR.getMapWrongParameterNotFail,,,MIF,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Alleen op oude infra: Te strikte OGC validatie (fail on wrong parameter)
-103,,,TR.getMapNoMandatoryParameterNotFail,,,MIF,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,Alleen op oude infra: Te strikte OGC validatie (getmap service parameter ontbreekt)
+100,,,TR.noMandatoryParameterNotFail,,,IT,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,"Alleen op oude infra: Te strikte OGC validatie (service parameter ontbreekt), als dit op de nieuwe infra voorkomt moet de OGC webproxy aangezet worden."
+102,,,TR.getMapWrongParameterNotFail,,,IT,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,"Alleen op oude infra: Te strikte OGC validatie (fail on wrong parameter), als dit op de nieuwe infra voorkomt moet de OGC webproxy aangezet worden."
+103,,,TR.getMapNoMandatoryParameterNotFail,,,IT,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/40,"Alleen op oude infra: Te strikte OGC validatie (getmap service parameter ontbreekt), als dit op de nieuwe infra voorkomt moet de OGC webproxy aangezet worden."
 107,,EIDc9b5a754-2093-4aba-9dca-9af9887f046f,TR.invalidSchema,,,MIF,,De namespace voor prefix sld wordt niet altijd herkend door de ETF test
 108,EID738051b8-6344-42be-8315-6fbc69f52575,,TR.notHarmonisedValue,,,MIF,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/39,"harmonized layer names should not be mandatory (voor NWB PDOK-11407) "
 109,,EID76f8fb3a-c00f-11e8-a355-529269fb1459,TR.wrongDateFormat,,,IT,https://dev.kadaster.nl/jira/browse/PDOK-12883,Network Services metadata:  ISO datum formaat Errors md common req C.14: Temporal Extent (Known PDOK issue) vervolg
@@ -39,5 +39,14 @@
 148,,"EIDc069d70e-f813-4363-b3c5-8a4056a08fe2
 ",,,{1c0dcc64-91aa-4d44-a9e3-54355556f5e7},IT,https://dev.kadaster.nl/jira/browse/PDOK-14364,
 149,,EIDcb5c9a23-4f98-4cf0-982e-7736dd8294dc,,,{1c0dcc64-91aa-4d44-a9e3-54355556f5e7},IT,https://dev.kadaster.nl/jira/browse/PDOK-14364,
-150,EIDe03c8b69-dfa2-45fd-96bf-171b7145d7fe,,TR.notHarmonisedValue,,{f0c6fbfe-a172-4223-8af3-58f6a28c881d},BU_ACCEPTED,https://dev.kadaster.nl/jira/browse/PDOK-14353,Afgesprokenm
+150,EIDe03c8b69-dfa2-45fd-96bf-171b7145d7fe,,TR.notHarmonisedValue,,{f0c6fbfe-a172-4223-8af3-58f6a28c881d},BU_ACCEPTED,https://dev.kadaster.nl/jira/browse/PDOK-14353,Afgesproken met dataprovider om de laagnamen zo the houden
 151,EID61e80a06-c181-11e8-a355-529269fb1459,,TR.noConformityStatement,,"{56e8ce20-0e6f-4ef2-8c09-6e30bc3680b9,d1cb16ca-2029-454f-b3f1-f70bceaf62c1,66805d91-a5f6-4265-bd36-ef13a429c97e}",BU,https://dev.kadaster.nl/jira/browse/PDOK-13002,BRO moet de juiste conformiteit op de datasets zetten
+152,EIDe03c8b69-dfa2-45fd-96bf-171b7145d7fe,,TR.notHarmonisedValue,,{f0c6fbfe-a172-4223-8af3-58f6a28c881d},BU_ACCEPTED,https://dev.kadaster.nl/jira/browse/PDOK-13656,Afgesproken met dataprovider om de laagnamen (hh_nuts_......) zo te houden
+153,,,,,"{7ab53b91-9df1-4c39-ba0e-06ec80ce512b,b023459a-9f0e-4d53-8059-a794119abbed}",BU,https://dev.kadaster.nl/jira/browse/PDOK-13938,wordt uitgefaseerd
+154,,,,,"{28e6b45e-7627-454d-99a0-4119bbe1678d,e222648d-d19e-4a99-a67d-2af1c9aabd75,8eb296dd-0e1d-4ed9-be24-297149d770f8,88a337a9-bed3-4d79-80fa-ff4b45990d7d,bb85e473-c04a-42a6-9fdc-f0bb0239327e}",MIF,https://github.com/INSPIRE-MIF/helpdesk-validator/issues/745,"ATOMs met grote download bestanden kunnen er toe leiden dat de ETF validator OOM gaat, blijkbaar worden deze bestanden in memory geladen PDOK-14357"
+155,,EIDf9d73158-df14-4818-86b3-fe04649351ca,TR.missingMdIdentifier,,,BU,https://dev.kadaster.nl/jira/browse/PDOK-14374,"De WFS capabilties verwijst per feature een metadata url naar dataset metadata verwijst, echter bestaat de dataset metadata mogelijk niet meer in het NGR"
+156,,EID8c227df0-8692-45ec-a734-26bd7d0e6752,,,,BU,https://dev.kadaster.nl/jira/browse/PDOK-14362,De service metadata bevat mogelijk verwijzingen naar niet bestaande dataset MD records.
+157,,,,,"{afe2131c-8ffc-4975-a171-654745a320a4,d7a395a2-8673-4794-a5a6-fed6492cd580,a301ddc7-c26f-42d8-b367-509ae5ae47d0,d7a395a2-8673-4794-a5a6-fed6492cd580}",BU_ACCEPTED,,"Luchtfoto service, gaat niet door de inspire proxy"
+158,,EID6998a6f6-66a2-47e5-a70b-503e04415d7c,TR.fallbackInfo,,,BU,https://dev.kadaster.nl/jira/browse/PDOK-14369,Opensearch description kan niet gegenereerd worden als er meerdere atoms zijn die verwijzen naar eenzelfde spatial dataset id / bronid
+159,,EID5456879e-aa5c-4e77-9b9d-c932925849d9,MetadatafileIdentifierexists,,,BU,https://dev.kadaster.nl/jira/browse/PDOK-14374,Dataset metadata ontbreekt in het NGR. Per feature wordt namelijk naar de bijbehorende dataset metadata verwezen in de Capabilities
+160,,EID0d4fb60d-bd86-4391-844e-697f92398830,MetadatahaselementMD_Metadata,,,BU,https://dev.kadaster.nl/jira/browse/PDOK-14374,Dataset metadata ontbreekt in het NGR. Per feature wordt namelijk naar de bijbehorende dataset metadata verwezen in de Capabilities
