@@ -1,8 +1,8 @@
 # Know issues
 
-Deze repo bevat een lijst van alle onderkende validatie fouten uit de automatische etf validatie. Per type validatie fout kan  informatie toegevoegd worden, om een oplossing(srichting) te beschrijven of om te verwijzen naar reeds aangemaakt tickets (intern bij pdok, of extern)
+Deze repo bevat een lijst van alle onderkende validatie fouten uit de automatische etf validatie. Per type validatie fout kan  informatie toegevoegd worden, om een oplossing(srichting) te beschrijven of om te verwijzen naar reeds aangemaakt tickets (intern bij pdok, of extern biuj het [Inspire MIF](https://github.com/INSPIRE-MIF/helpdesk-validator/issues))
 
-Telkens als er een automatische etf validatie draait wordt de inhoud van csv in deze repo in de ETF database geladen en worden middels queries in het [etf validatie grafana dashboard](https://pdok.cloud.kadaster.nl/grafana/d/fL3ApY1Gk/etf-validatie?orgId=1) gekoppeld aan de getoonde validatiefouten.
+Telkens als er een automatische etf validatie draait wordt de inhoud van csv in deze repo in de ETF database geladen en worden known issues middels queries in het [etf validatie grafana dashboard](https://pdok.cloud.kadaster.nl/grafana/d/fL3ApY1Gk/etf-validatie?orgId=1) gekoppeld aan de validatiefouten.
 
 ---
 ### Known issue 
@@ -17,7 +17,7 @@ Telkens als er een automatische etf validatie draait wordt de inhoud van csv in 
 
 - **link** 
   
-  url naar het betreffende Jira ticket of een ticket van de [inspire helpdesk validator](https://github.com/INSPIRE-MIF/helpdesk-validator/issues)
+  url naar een gerelateerd Jira ticket of een ticket van de [inspire helpdesk validator](https://github.com/INSPIRE-MIF/helpdesk-validator/issues)
 
 - **omschrijving**
 
@@ -27,11 +27,11 @@ Telkens als er een automatische etf validatie draait wordt de inhoud van csv in 
 ---
 ### Hoe te linken aan validatie fouten
 
-Om een onderkende validatie fouten te linken aan een hierboven beschreven oplossing of ticket, dienen 1 of meerdere waarden ingevuld te worden. Zo kan gelinkt worden aan een specifieke assertion met mogelijke een specifieke foutmelding. Dit is afhankelijk van welke waarden ingevuld worden. Als een waarde niet ingevuld wordt er ook niet op dit veld gefilterd.
+Om een onderkende validatie fouten te linken aan een hierboven beschreven oplossing of ticket, dienen 1 of meerdere van onderstaande velden ingevuld te worden in de csv file. Zo kan gelinkt worden aan een specifieke assertion met mogelijke een specifieke foutmelding. Hoe gelinkt wordt is afhankelijk van welke velden ingevuld worden. Als een veld niet ingevuld wordt er niet op dit veld gefilterd.
 
-- **test_suite_id** (optioneel)
+- **test_suite_id** (optioneel) TODO
 
-  Het id van de testsuite. we kennen oa de volgende testsuites:
+  Het id van de testsuite. we kennen (momenteel) de volgende testsuites:
   | Testsuite                  | id                                      |
   |----------------------------|-----------------------------------------|
   | ATOM service               | EID11571c92-3940-4f42-a6cd-5e2b1c6f4d93 |
@@ -47,7 +47,7 @@ Om een onderkende validatie fouten te linken aan een hierboven beschreven oploss
 
 - **test_step_id** (optioneel)
 
-  TODO! Id van de testtap
+  Id van de test stap
 
 - **test_assertion_id**
 
