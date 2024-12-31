@@ -12,7 +12,7 @@ Telkens als er een automatische etf validatie draait wordt de inhoud van csv in 
   geeft aan bij wie dit ticket belegt is. Mogelijk te gebruiken waarden zijn: 
   - **BU** (Business)
   - **BU_ACCEPTED** (Door de Business geaccepteerde fout / won't fix)
-  - **IT** (IT, hiervoor is dan ook een Jira ticket aangemaakt)
+  - **IT** (IT, Actie voor IT om verder te analyseren, in veel gevallen bevat de omschrijving een hint naar een mogelijk oplossing)
   - **EU** (Er is een ticket aanmaakt bij de [inspire helpdesk validator](https://github.com/INSPIRE-MIF/helpdesk-validator/issues))
 
 - **link** 
