@@ -32,18 +32,22 @@ Om een onderkende validatie fouten te linken aan een hierboven beschreven oploss
 - **test_suite_id** (optioneel) TODO
 
   Het id van de testsuite. we kennen (momenteel) de volgende testsuites:
-  | Testsuite                  | id                                      |
-  |----------------------------|-----------------------------------------|
-  | ATOM service               | EID11571c92-3940-4f42-a6cd-5e2b1c6f4d93 |
-  | WMS service                | EIDeec9d674-d94b-4d8d-b744-1309c6cae1d2 |
-  | WFS service                | EID174edf55-699b-446c-968c-1892a4d8d5bd |
-  | WCS service                | EID074570ad-d720-47b3-af79-d54201793404 |
-  | WMTS service               | EID550ceacf-b3cb-47a0-b2dd-d3edb18344a9 |
-  | Common metadata            | EID59692c11-df86-49ad-be7f-94a1e1ddd8da |
-  | Netwerk service metadata   | EID606587df-65a8-4b7b-9eee-e0d94daaa42a |
-  | SDS Invocable metadata     | EID8db54d8a-8578-4959-b891-5394d9f53a28 |
-  | SDS Interoperable metadata | EID7514777a-6cb8-499c-acd5-912496dc84e9 |
-  | SDS Harmonised metadata    | EIDa593a7ad-42d9-46d0-985d-9dff3e684428 |
+  | Testsuite                               | id                                      |
+  |-----------------------------------------|-----------------------------------------|
+  | ATOM service                            | EID11571c92-3940-4f42-a6cd-5e2b1c6f4d93 |
+  | WMS service                             | EIDeec9d674-d94b-4d8d-b744-1309c6cae1d2 |
+  | WFS service                             | EID174edf55-699b-446c-968c-1892a4d8d5bd |
+  | WCS service                             | EID074570ad-d720-47b3-af79-d54201793404 |
+  | WMTS service                            | EID550ceacf-b3cb-47a0-b2dd-d3edb18344a9 |
+  | OGC API service                         | EIDc543e1ad-465d-3162-ac1a-badef588dc76 |
+  | Common metadata                         | EID59692c11-df86-49ad-be7f-94a1e1ddd8da |
+  | Dataset metadata                        | EID2be1480a-fe42-40b2-9420-eb0e69385c80 |
+  | Dataset metadata for monitoring         | EID0b86f7a3-2947-4841-823d-6a00d8e06d70 | 
+  | Netwerk service metadata                | EID606587df-65a8-4b7b-9eee-e0d94daaa42a |
+  | Netwerk service metadata for monitoring | EIDb0e0e8dd-68f8-461e-9090-d6fad9418cdb |
+  | SDS Invocable metadata                  | EID8db54d8a-8578-4959-b891-5394d9f53a28 |
+  | SDS Interoperable metadata              | EID7514777a-6cb8-499c-acd5-912496dc84e9 |
+  | SDS Harmonised metadata                 | EIDa593a7ad-42d9-46d0-985d-9dff3e684428 |
 
 - **test_step_id** (optioneel)
 
